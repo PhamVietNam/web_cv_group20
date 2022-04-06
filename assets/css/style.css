@@ -1,7 +1,18 @@
-.navbar{
-    background-color: #3d3d3d !important;
+body{
+    background-color: rgba(20, 1, 20, 1);
 }
-.navbar li a{
-    color: white !important ;
-    font-size: larger !important;
+.header{
+    position: relative;
+    margin-bottom: 50px;
+}
+.center{
+    position: absolute;
+   top: 40%;
+   width: 100%;
+   text-align: center;
+
+   font-size: large;
+}
+section p{
+    color: pink;
 }
