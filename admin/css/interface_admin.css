@@ -1,0 +1,18 @@
+.add-new{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    margin: 10px;
+}
+button{
+    padding: 0 90px;
+    
+}
+.table{
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+}

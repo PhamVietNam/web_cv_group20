@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+ 
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div id="admin">
+        <!-- start header -->
+        <div id="header">
+            <div class="container">
+                <ul id="nav">
+                    <li><a href="#">Admin </a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="container">
+            <div class="main">
+                <h1>admin login</h1>
+                <div class="form">
+                    <div class="form-box">
+                        <label for="">username</label>
+                        <input type="text" class="input" id="username">
+                        <div id="error_username"></div>
+                    </div>
+                    <div class="form-box">
+                        <label for="">password</label>
+                        <input type="password" class="input" id="password">
+                        <div id="error_password"></div>
+                    </div>
+                    <div class="box">
+                        <input type="checkbox" class="input-box">Remember
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <a href="interface_admin.html"><button>Login</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
